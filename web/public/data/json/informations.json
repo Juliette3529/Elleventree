@@ -1,18 +1,27 @@
-[
-    {
+{
+   "trash" :  {
       "name": "trash",
-      "id" : "2",
-      "pic": "../data/assets/photo1",
+      "id" : "1",
+      "pic": "../web/public/data/assets/trash1.jpg",
       "title" : "LOREM IPSUM",
       "numberKey" : "56 tonnes",
-      "text": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
-    },
-    {
+      "text": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum"
+    } ,
+    "trash2" : {
         "name": "trash",
-        "id" : "1",
-        "pic": "../data/assets/photo2",
+        "id" : "2",
+        "pic": "../web/public/data/assets/photo1.jpg",
         "title" : "LOREM IPSUM",
         "numberKey" : "50 milliard de poubelles",
-        "text": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
+        "text": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, "
+      },
+      "earth" : {
+        "name": "earth",
+        "id" : "1",
+        "pic": "../web/public/data/assets/planete2.jpg",
+        "title" : "Population de la Terre",
+        "numberKey" : "7775271220",
+        "text2" : "Presque 3 personnes en plus chaque seconde ! ",
+        "text": "Selon l'ONU nous seront 9,8 milliards en 2050 et 11,18 milliards en 2100 !"
       }
-  ]
+}

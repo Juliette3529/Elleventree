@@ -10,9 +10,11 @@
     <script src="node_modules/animejs/lib/anime.min.js"></script>
     <script src="public/scripts/main.js"></script>
     <script src="public/scripts/slide3.js"></script>
+    <script src="public/scripts/slide10.js"></script>
     <link rel="stylesheet" href="node_modules/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="public/styles/main.css">
     <link rel="stylesheet" href="public/styles/Slide3.css">
+    <link rel="stylesheet" href="public/styles/Slide10.css">
 </head>
 <body>
     <!-- Swiper -->
@@ -20,12 +22,12 @@
     <div class="swiper-wrapper">
       <div class="swiper-slide">Slide 1</div>
       <div class="swiper-slide">Slide 2</div>
-      <div id="slide3" class="swiper-slide">
-        <div class="textSlide3">
-          <h1 id="titreSlide3">Population de la Terre</h1>
-          <h2 id="nbHumain"></h2> 
-          <p id="personnePS">Presque 3 personnes en plus chaque seconde ! </p>
-          <p id="onu">Selon l'ONU nous seront 9,8 milliards en 2050 et 11,18 milliards en 2100 !</p>
+      <div id="slide3" class="swiper-slide earth">
+        <div class="background-swiper-slide">
+          <h1 class="title"></h1>
+          <h2 id='numberhuman'></h2> 
+          <p class="text2"></p>
+          <p class="text"></p>
         </div>
       </div>
       <div class="swiper-slide">Slide 4</div>
@@ -35,9 +37,13 @@
       <div class="swiper-slide">Slide 8</div>
       <div class="swiper-slide">Slide 9</div>
       <div class="swiper-slide trash">
-        <div class="background-swiper-slide-trash">
-          <h1 class="title"></h1>
-          <h1 class="name"></h1>
+        <div class="background-swiper-slide">
+          <div id = "cloud">
+            <h1 class="title"></h1>
+            <h1 class="number"></h1>
+            <p class="text"></p>
+          </div>
+      </div>
         </div>
       </div>
     </div>

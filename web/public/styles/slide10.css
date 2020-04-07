@@ -1,0 +1,67 @@
+.background-swiper-slide{
+    height:100vh;
+    width:100vw;
+    background:no-repeat;
+    background-size:cover;
+}
+
+#cloud {
+    height: 35%;
+    width: 90%;
+    background: whitesmoke;
+    border-radius: 13rem;
+    position: relative;
+    opacity:0.8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.2);
+}
+
+#cloud .title,
+#cloud .number,
+#cloud .text {
+    margin: 0;
+    max-width: 80%;
+}
+
+#cloud .title {
+    font-size: 2.5em;
+    color: #333;
+}
+
+#cloud .number {
+    font-size: 1.5rem;
+    color: darkred;
+    padding: .5rem 0;
+}
+
+#cloud .text {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+#cloud:before {
+    content: "";
+    width: 58%;
+    height: 85%;
+    background: whitesmoke;
+    position: absolute;
+    top: 58%;
+    left: 10%;
+    border-radius: 50%;
+    z-index:-1;
+}
+
+#cloud:after {
+    content: "";
+    width: 35%;
+    height: 55%;
+    background: whitesmoke;
+    position: absolute;
+    top: 65%;
+    right: 14%;
+    border-radius: 50%;
+    z-index:-1;
+}
