@@ -15,7 +15,6 @@ html, body {
   }
   .swiper-slide {
     text-align: center;
-    font-size: 18px;
     background: #fff;
     min-height:90vh;
     /* Center slide text vertically */
@@ -32,6 +31,10 @@ html, body {
     -webkit-align-items: center;
     align-items: center;
   }
-  .slide2 {
-    background-image:url("../data/assets/forest-floor.jpg");
-  }
+.my-active{
+  background : blue;
+}
+
+.slide2 {
+  background-image:url("../data/assets/forest-floor.jpg");
+}
