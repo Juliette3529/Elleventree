@@ -34,4 +34,7 @@ html, body {
 .my-active{
   background : blue;
 }
-  
+
+.slide2 {
+  background-image:url("../data/assets/forest-floor.jpg");
+}
