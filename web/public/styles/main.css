@@ -15,7 +15,6 @@ html, body {
   }
   .swiper-slide {
     text-align: center;
-    font-size: 18px;
     background: #fff;
     min-height:90vh;
     /* Center slide text vertically */
@@ -32,3 +31,7 @@ html, body {
     -webkit-align-items: center;
     align-items: center;
   }
+.my-active{
+  background : blue;
+}
+  

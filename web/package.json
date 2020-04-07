@@ -1,0 +1,16 @@
+{
+  "name": "elleven-tree",
+  "version": "1.0.0",
+  "description": "A school project",
+  "dependencies": {
+    "animejs": "3.1.0",
+    "bootstrap": "4.4.1",
+    "dom7": "2.1.3",
+    "http-server": "^0.12.1",
+    "jquery": "3.4.1",
+    "node-fetch": "2.6.0",
+    "ssr-window": "1.0.1",
+    "swiper": "5.3.6",
+    "underscore": "1.10.2"
+  }
+}
