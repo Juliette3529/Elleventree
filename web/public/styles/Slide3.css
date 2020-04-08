@@ -12,7 +12,7 @@
   font-style: normal;
 }
 
-.background-swiper-slide {
+#slide3 .background-swiper-slide {
   display: flex;
   flex-direction: column;
   align-items: flex-start;

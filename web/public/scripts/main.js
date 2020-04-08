@@ -22,6 +22,10 @@ $(document).ready(function () {
       //trouver numero de la slide pour mettre le 1 comme ref id
       getDataForSlide("earth");
     }
+    if (document.getElementsByClassName('water swiper-slide-next').item(0) != null) {
+      //trouver numero de la slide pour mettre le 1 comme ref id
+      getDataForSlide("water");
+    }
     console.log("page changée");
   }
   async function getJsonAsync(url, myInit, type) {
