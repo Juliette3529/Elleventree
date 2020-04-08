@@ -1,4 +1,8 @@
-#chartdiv {
-    width: 100%;
-    height: 500px;
+  .food {
+    display:flex;
+  }
+  .pie {
+    background-position-y: 10vh;
+    background-size: 78%;
+    background-position-x: 13vw;
   }
