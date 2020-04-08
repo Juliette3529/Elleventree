@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A school project",
   "dependencies": {
+    "@amcharts/amcharts4": "^4.9.13",
     "animejs": "3.1.0",
     "bootstrap": "4.4.1",
     "dom7": "2.1.3",

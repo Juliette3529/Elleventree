@@ -12,19 +12,23 @@ $(document).ready(function () {
     },
   });
   function SlideActive() {
-    //recup class des next slides
-    // envoyer pour chaque class le json qui convient
     if (document.getElementsByClassName('trash swiper-slide-next').item(0) != null) {
-      //trouver numero de la slide pour mettre le 1 comme ref id
       getDataForSlide("trash");
     }
     if (document.getElementsByClassName('earth swiper-slide-next').item(0) != null) {
-      //trouver numero de la slide pour mettre le 1 comme ref id
       getDataForSlide("earth");
     }
     if (document.getElementsByClassName('water swiper-slide-next').item(0) != null) {
-      //trouver numero de la slide pour mettre le 1 comme ref id
       getDataForSlide("water");
+    }
+    if (document.getElementsByClassName('food swiper-slide-next').item(0) != null) {
+      getDataForSlide("food");
+    }
+    if (document.getElementsByClassName('money swiper-slide-next').item(0) != null) {
+      getDataForSlide("money");
+    }
+    if (document.getElementsByClassName('petrole swiper-slide-next').item(0) != null) {
+      getDataForSlide("petrole");
     }
     console.log("page changée");
   }
