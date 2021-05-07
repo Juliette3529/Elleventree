@@ -12,6 +12,6 @@
     "node-fetch": "2.6.0",
     "ssr-window": "1.0.1",
     "swiper": "5.3.6",
-    "underscore": "1.10.2"
+    "underscore": "1.12.1"
   }
 }
