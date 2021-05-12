@@ -11,7 +11,7 @@
     "jquery": "3.4.1",
     "node-fetch": "2.6.0",
     "ssr-window": "1.0.1",
-    "swiper": "5.3.6",
+    "swiper": "6.5.1",
     "underscore": "1.10.2"
   }
 }
